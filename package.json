@@ -1,0 +1,14 @@
+{
+  "name": "space-warp",
+  "version": "1.0.0",
+  "description": "StarFall with ThreeJs",
+  "homepage" : "https://bergmaner.github.io/spacewarp",
+  "main": "three.min.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "author": "Berg Kacper",
+  "license": "ISC"
+}
